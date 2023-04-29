@@ -313,7 +313,7 @@ button {
 }
 
 .contacts {
-  margin-right: 129px;
+  margin-right: auto;
 }
 .logo {
   font-weight: 700;
@@ -351,7 +351,7 @@ button {
 
 .footer-nav {
   display: flex;
-  gap: 120px;
+  gap: 100px;
 }
 .title-footer-list {
   margin-bottom: 24px;
@@ -361,7 +361,7 @@ button {
 }
 .nav-footer-link {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 0.75;
   text-align: left;
   color: #01010d;
   scale: 1;
