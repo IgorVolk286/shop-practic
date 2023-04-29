@@ -26,6 +26,14 @@ button {
   margin: 0;
   cursor: pointer;
 }
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red;
+}
 img {
   display: block;
 }
@@ -35,7 +43,8 @@ img {
 /* =====header===== */
 
 .header {
-  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #fafafa;
   padding-top: 40px;
   padding-bottom: 39px;
@@ -99,41 +108,40 @@ img {
 }
 
 .hero {
-  /* outline: 1px solid red; */
-  width: 1440px;
-
+  outline: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-hero {
   display: flex;
-}
 
-.hero-main {
-  width: 720px;
-  /* outline: 1px solid red; */
-  padding-top: 154px;
   padding-left: 162px;
-  padding-right: 126px;
-  padding-bottom: 135px;
-  background-color: #f1f1f2;
 }
-
+.hero-content {
+  padding-top: 154px;
+  padding-right: 126px;
+}
 .hero-title {
+  font-weight: 400;
   font-size: 56px;
   line-height: 1.23;
   color: var(--main-color);
   margin-bottom: 36px;
 }
-.text {
+.text-hero {
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 52px;
-  text-align: center;
 }
+
 .hero-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 60px;
-
+  /* width: 200px;
+  height: 60px; */
+  padding: 25px;
+  margin-bottom: 135px;
   font-size: 18px;
   line-height: 1.22;
   text-transform: uppercase;
@@ -153,19 +161,17 @@ img {
 .hero-foto {
   display: inline-flex;
   flex-grow: 0;
-
   width: 720px;
-  /* outline: 1px solid red; */
-  background-image: url(../images/Background-hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  outline: 1px solid red;
+
   background-color: aqua;
 }
 
 /* ==================HOW WORK============== */
 .how-work {
   width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .work-list {
 }
@@ -199,7 +205,11 @@ img {
   color: var(--main-color);
   margin-bottom: 25px;
 }
-
+.text {
+  margin-bottom: 35px;
+  font-size: 20px;
+  line-height: 1.4;
+}
 .work-buttom {
   display: flex;
   justify-content: center;
@@ -222,12 +232,13 @@ img {
   padding-bottom: 137px;
   background-color: #ffffff;
 }
-.container {
+/* .container {
   width: 1200px;
-  margin: 0 135px;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+  outline: 1px solid red;
+} */
 
 .gifts-title {
   font-size: 32px;
@@ -273,4 +284,219 @@ img {
 .card-name {
   padding: 24px 24px;
   background-color: #fafafa;
+}
+
+/* =========================find======================= */
+.find {
+  width: 1440px;
+  background-color: #f7941e;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 81px;
+  padding-bottom: 69px;
+}
+.find-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 229px;
+}
+
+.find-content {
+  margin-right: ;
+}
+.find-tittle {
+  font-size: 32px;
+  line-height: 1.4;
+}
+.text-find {
+  font-size: 32px;
+  line-height: 1.4;
+}
+.find-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.find-item {
+}
+
+.button-find {
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 18px 24px;
+  border-radius: 4px;
+  background-color: #000000;
+}
+.trans {
+  background-color: transparent;
+  color: #000000;
+}
+
+.blogs {
+  padding-top: 88px;
+  padding-bottom: 93px;
+}
+
+.blogs-title {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.18;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 23px;
+}
+.text-undertitle {
+  font-size: 18px;
+  line-height: 1.35;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.blogs-main {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+.blogs-main-content {
+  padding-top: 63px;
+  padding-bottom: 49px;
+  padding-left: 78px;
+  background-color: #000000;
+  flex-grow: 1;
+  height: 370px;
+}
+
+.text-blogs {
+  font-size: 14px;
+  line-height: 1.462%;
+  color: #ffffff;
+  margin-bottom: 27px;
+}
+.title-blogs-main {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  max-width: 492px;
+  margin-bottom: 62px;
+}
+.text-blogs-under {
+  font-size: 18px;
+  line-height: 1.4062%;
+  color: #ffffff;
+}
+.blogs-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.blogs-item {
+  min-height: 270px;
+  padding-top: 61px;
+  padding-left: 48px;
+  padding-bottom: 37px;
+  flex-basis: calc((100% - 30px) / 2);
+  box-shadow: 10px 10px 15px rgba(45, 15, 36, 0.5);
+}
+.blogs-list-title {
+  font-size: 24px;
+  line-height: 1.4062;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.blogs-text-list {
+  font-size: 18px;
+  line-height: 1.4062;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.blogs-undertext-list {
+  font-size: 14px;
+  line-height: 1.4062;
+  color: #000000;
+}
+
+/* ==================footer */
+.container-footer {
+  padding-top: 115px;
+  padding-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+}
+.footer-nav {
+  margin-bottom: 53px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-footer-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.fotor-nav-item {
+}
+.footer-nav-link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4062;
+  color: #000000;
+}
+
+.icon-logo {
+  fill: #f7941e;
+}
+.footer-nav::after {
+  display: block;
+  content: ' ';
+  width: 1000px;
+
+  border: 1px solid #000000;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-social {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.footer-social-list {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 24px;
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  fill: aqua;
+  stroke: red;
+}
+
+.copyrate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.text-footer {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4062;
 }
